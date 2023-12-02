@@ -6,9 +6,11 @@
 ## 사용 라이브러리 및 도구
 - styled-components
 - react-router-dom
+- react-icons
 ```
 $ yarn add styled-components
 $ yarn add react-router-dom
+$ yarn add react-icons
 ```
 
 ## 커밋 규칙
