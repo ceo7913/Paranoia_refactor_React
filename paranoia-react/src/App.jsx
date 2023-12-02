@@ -5,9 +5,9 @@ import { Prolog } from './pages/Prolog';
 function App() {
   return (
     <div className="App">
-      <Cnavas/>
+      {/* <Cnavas/> */}
       {/* <GameOver/> */}
-      {/* <Prolog/> */}
+      <Prolog/>
     </div>
   );
 }

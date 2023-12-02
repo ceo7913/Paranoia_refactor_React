@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { BiCaretRight } from "react-icons/bi"
 
 export const Prolog = () => {
   return (
@@ -11,7 +12,7 @@ export const Prolog = () => {
 
             1971년 2월 1일 해당 지역 인근에서 발생한 시체 집단 유기 사건과 관련이 있다고 파악한 한 형사는 해당 병원을 조사하게 되는데…
         </div>
-        <button>SKIP</button>
+        <button>SKIP<BiCaretRight/></button>
     </div>
 </PrologPageBox>
   )
@@ -41,6 +42,8 @@ const PrologPageBox = styled.div`
         margin-right: 150px;
       }
       button{
+        display: flex;
+        gap: 8px;
         font-family: 'NeoDunggeunmo';
         background-color: transparent;
         border: transparent;
