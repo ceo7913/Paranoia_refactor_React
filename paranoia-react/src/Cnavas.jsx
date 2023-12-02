@@ -11,6 +11,8 @@ export const Cnavas = () => {
     // canvasRef.current를 통해 현재 참조되는 DOM 요소에 접근 가능
     const canvas = canvasRef.current;
     // 이제 canvas를 사용하여 작업을 수행할 수 있음
+    canvas.width = 1024;
+    canvas.height = 576;
 
     const context = canvas.getContext('2d');
     context.storkeStyle = 'black' // 선의 색
@@ -33,8 +35,10 @@ export const Cnavas = () => {
 }
 
 const CanvasWrap = styled.div`
+    overflow: auto;
     width: 1024px;
     height: 576px;
+    box-sizing: border-box;
     position: relative;
     background: #ffffff;
     canvas{
