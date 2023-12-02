@@ -2,6 +2,7 @@
 
 ## 프로젝트 목적
 2D game paranoia refactoring
+* early version - (https://github.com/ceo7913/Team-Project-2D-Game)
 
 ## 사용 라이브러리 및 도구
 - styled-components
